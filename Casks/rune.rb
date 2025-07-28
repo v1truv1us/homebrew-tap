@@ -2,7 +2,7 @@
 cask "rune" do
   desc "Ancient wisdom for modern workflows - A developer-first CLI productivity platform"
   homepage "https://github.com/ferg-cod3s/rune"
-  version "0.2.0-beta.1"
+  version "0.2.0-beta.3"
 
   livecheck do
     skip "Auto-generated on release."
@@ -18,23 +18,23 @@ cask "rune" do
 
   on_macos do
     on_intel do
-      url "https://github.com/ferg-cod3s/rune/releases/download/v0.2.0-beta.1/rune_Darwin_x86_64.tar.gz"
-      sha256 "a17eddb05cdc3985bf3c2d8cc29c4800f3ac6deb7a05f36eb458bd9d0e8783fe"
+      url "https://github.com/ferg-cod3s/rune/releases/download/v0.2.0-beta.3/rune_Darwin_x86_64.tar.gz"
+      sha256 "1c04ad89fc9c9388c6caa5bf789ae36499a25cfa483a502728f35c498abf1114"
     end
     on_arm do
-      url "https://github.com/ferg-cod3s/rune/releases/download/v0.2.0-beta.1/rune_Darwin_arm64.tar.gz"
-      sha256 "639a5ce71515972db5f3632c94292d5f6c9fae075f21963a796b2bd7b11408c1"
+      url "https://github.com/ferg-cod3s/rune/releases/download/v0.2.0-beta.3/rune_Darwin_arm64.tar.gz"
+      sha256 "e7c3f85b2ab72c8a32e27b514d7bd444e78b2e03a05bc36eefc4ef05f513d5a3"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/ferg-cod3s/rune/releases/download/v0.2.0-beta.1/rune_Linux_x86_64.tar.gz"
-      sha256 "c0049a2cf218c68bb211f04d74d6b06ba82f3096c0498e287441972baf949cc2"
+      url "https://github.com/ferg-cod3s/rune/releases/download/v0.2.0-beta.3/rune_Linux_x86_64.tar.gz"
+      sha256 "f7c254743533b58fa9e7c91e1f942e1f94a3666f063cb81d72e622544f2c2546"
     end
     on_arm do
-      url "https://github.com/ferg-cod3s/rune/releases/download/v0.2.0-beta.1/rune_Linux_arm64.tar.gz"
-      sha256 "8ffbc046b830698f089ce1d736c284c6b39c79529490d7a4ef72111d7ed12f4c"
+      url "https://github.com/ferg-cod3s/rune/releases/download/v0.2.0-beta.3/rune_Linux_arm64.tar.gz"
+      sha256 "55c8fcf83702dc347b8839e128627425e710cf6fd3213d6bab12f460359a0620"
     end
   end
 

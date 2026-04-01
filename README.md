@@ -1,17 +1,25 @@
-# Homebrew Tap for Rune CLI
+# v1truv1us/homebrew-tap
 
-This repository contains the Homebrew formula for the Rune CLI tool.
+Homebrew tap for v1truv1us CLI tools.
 
 ## Installation
 
 ```bash
-brew tap ferg-cod3s/tap
-brew install rune
+brew tap v1truv1us/tap
 ```
 
-## About Rune
+## Available Formulas
 
-Ancient wisdom for modern workflows - A developer-first CLI productivity platform.
+| Formula | Description |
+|---------|-------------|
+| [solo](https://github.com/v1truv1us/Solo) | Local-first CLI task orchestration for coordinating multiple coding agents |
+| [rune](https://github.com/ferg-cod3s/rune) | Ancient wisdom for modern workflows - developer-first CLI productivity platform |
+| [ninjops](https://github.com/v1truv1us/ninjops) | Agentic CLI orchestration for Invoice Ninja workflows |
 
-Visit the main repository: https://github.com/ferg-cod3s/rune
+## Installing individual tools
 
+```bash
+brew install solo
+brew install rune
+brew install ninjops
+```
